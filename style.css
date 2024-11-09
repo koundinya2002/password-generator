@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d7d4d4;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 1rem;
+    border-radius: 35px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 1);
+    background-color: white;
+}
+
+.generate {
+    border-radius: 20px;
+    padding: 1rem;
+    background-color: rgba(221, 194, 188, 60);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.generate:hover {
+    background-color: rgba(489, 194, 188, 80);
+}
+
+.generate:active {
+    background-color: rgba(221, 194, 188, 80);
+}
+
+.pwd {
+    border-style:groove;
+    padding: .7rem;
+    border-radius: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.3rem;
+}
